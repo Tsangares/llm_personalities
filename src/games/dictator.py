@@ -3,6 +3,8 @@ from typing import List, Optional, Union
 from src.games.game import Game, Strategy
 
 class DictatorGame(Game):
+    GAME_RULES = "You have ${endowment}. Decide how much to give to the other player. Respond with a number: absolute amount (e.g., 30) or fraction (e.g., 0.3 for 30%)."
+
     def __init__(self, endowment: float = 100.0):
         super().__init__(num_players=2, endowment=endowment)
 

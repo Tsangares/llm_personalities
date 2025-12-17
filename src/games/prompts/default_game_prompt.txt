@@ -1,0 +1,7 @@
+Game: {game_name}
+Role: {role}
+
+Rules:
+{game_rules}
+
+Provide your decision in the required format.

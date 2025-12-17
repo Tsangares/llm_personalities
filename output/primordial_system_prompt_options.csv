@@ -1,0 +1,803 @@
+Prompt,confess,silent,margin,N,combo,period,restriction
+Be honest with yourself,78.64583333333334,21.354166666666664,4.098921796524652,384,be_honest,no_period,none
+Respond authentically,70.05208333333334,29.947916666666668,4.581253196241416,384,authentic_response,no_period,none
+You are in this situation,77.34375,22.65625,4.186943358816955,384,you_are_there,no_period,none
+This is happening to you,85.67708333333334,14.322916666666666,3.503793709031778,384,happening_to_you,no_period,none
+You know yourself,88.80208333333334,11.197916666666668,3.1540650938592494,384,know_yourself,no_period,none
+This is your choice,47.13541666666667,52.864583333333336,4.992827265081403,384,your_choice,no_period,none
+"You are a person
+This is real life",1.3020833333333335,98.69791666666666,1.1338715067113714,384,"person,real_life",no_period,none
+"This is real life
+This is not theoretical",3.3854166666666665,96.61458333333334,1.808913774207228,384,"real_life,not_theoretical",no_period,none
+"You are human
+Be honest with yourself",72.39583333333334,27.604166666666668,4.471307780813237,384,"human,be_honest",no_period,none
+"This is real life
+Respond authentically",7.8125,92.1875,2.6842409229952313,384,"real_life,authentic_response",no_period,none
+"This is not a game
+Be honest with yourself",73.17708333333334,26.822916666666668,4.43129851284751,384,"not_game,be_honest",no_period,none
+"You are human
+This is happening to you",32.55208333333333,67.44791666666666,4.686667285941456,384,"human,happening_to_you",no_period,none
+"You are a person
+You are in this situation",47.65625,52.34375,4.995544228395748,384,"person,you_are_there",no_period,none
+"This is real life
+There is no right answer",22.916666666666664,77.08333333333334,4.203842402289486,384,"real_life,no_right_answer",no_period,none
+"This is not a game
+There is no wrong choice",35.67708333333333,64.32291666666666,4.791461413129216,384,"not_game,without_judgment",no_period,none
+"You are human
+You know yourself",89.84375,10.15625,3.0213503340365997,384,"human,know_yourself",no_period,none
+"This is real life
+Trust yourself",20.833333333333336,79.16666666666666,4.062010298120505,384,"real_life,trust_yourself",no_period,none
+"This is not theoretical
+Be honest with yourself",85.67708333333334,14.322916666666666,3.503793709031778,384,"not_theoretical,be_honest",no_period,none
+"This is not about strategy
+Respond authentically",3.6458333333333335,96.35416666666666,1.8746669143765826,384,"not_strategy,authentic_response",no_period,none
+"This is happening to you
+Be honest with yourself",30.989583333333332,69.01041666666666,4.62546769871324,384,"happening_to_you,be_honest",no_period,none
+"You are in this situation
+This is your choice",12.5,87.5,3.3078780648123454,384,"you_are_there,your_choice",no_period,none
+"You are actually facing this
+What would you actually do",83.59375,16.40625,3.7040942247571005,384,"actually_facing,what_would_you",no_period,none
+"You are human
+This is real life
+This is not hypothetical",18.75,81.25,3.9039368150944753,384,"human,real_life,not_hypothetical",no_period,none
+"You are human
+This is happening to you
+This is not a game",19.53125,80.46875,3.9652366005087667,384,"human,happening_to_you,not_game",no_period,none
+"You are a person
+You are in this situation
+This is not a game",23.958333333333336,76.04166666666666,4.269181061656983,384,"person,you_are_there,not_game",no_period,none
+"You are human
+This is real life
+Be honest with yourself",36.45833333333333,63.541666666666664,4.814133902980032,384,"human,real_life,be_honest",no_period,none
+"You are human
+This is real life
+Respond authentically",5.729166666666666,94.27083333333334,2.3244748973776366,384,"human,real_life,authentic_response",no_period,none
+"You are a person
+This is real life
+Be honest with yourself",39.58333333333333,60.416666666666664,4.891308118484635,384,"person,real_life,be_honest",no_period,none
+"You are human
+This is not a game
+Be honest with yourself",51.041666666666664,48.95833333333333,4.999956144917627,384,"human,not_game,be_honest",no_period,none
+"This is real life
+This is not a game
+Be honest with yourself",19.53125,80.46875,3.9652366005087667,384,"real_life,not_game,be_honest",no_period,none
+"You are human
+This is not a game
+There is no right answer",59.635416666666664,40.36458333333333,4.90730244479634,384,"human,not_game,no_right_answer",no_period,none
+"This is real life
+This is not a game
+There is no wrong choice",10.9375,89.0625,3.1217414651746265,384,"real_life,not_game,without_judgment",no_period,none
+"You are human
+This is real life
+This is not a game
+Be honest with yourself",7.552083333333333,92.44791666666666,2.6428493650745533,384,"human,real_life,not_game,be_honest",no_period,none
+"You are human
+This is real life
+This is not a game
+Respond authentically",0.0,100.0,0.0,384,"human,real_life,not_game,authentic_response",no_period,none
+"You are human
+This is real life
+This is not a game
+What would you actually do",0.0,100.0,0.0,384,"human,real_life,not_game,what_would_you",no_period,none
+"You are human
+This is real life
+This is not a game
+What is your genuine response",0.0,100.0,0.0,384,"human,real_life,not_game,your_genuine",no_period,none
+"You are human
+This is real life
+This is not a game
+Give your true response",0.0,100.0,0.0,384,"human,real_life,not_game,true_response",no_period,none
+"You are human
+This is real life
+This is not a game
+Make an honest choice",2.083333333333333,97.91666666666666,1.4285588985478932,384,"human,real_life,not_game,honest_choice",no_period,none
+"You are a person
+This is real life
+This is not a game
+Be honest with yourself",17.1875,82.8125,3.7735035471272966,384,"person,real_life,not_game,be_honest",no_period,none
+"You are human
+This is happening to you
+This is not a game
+Be honest with yourself",25.520833333333332,74.47916666666666,4.360690756029293,384,"human,happening_to_you,not_game,be_honest",no_period,none
+"You are human
+This is real life
+This is not theoretical
+Respond authentically",8.59375,91.40625,2.8033012003045457,384,"human,real_life,not_theoretical,authentic_response",no_period,none
+"You are human
+This is real life
+This is not about strategy
+Be honest with yourself",0.0,100.0,0.0,384,"human,real_life,not_strategy,be_honest",no_period,none
+"This is real life
+This is not a game
+Be honest with yourself
+Think step by step, then respond in the requested format",7.8125,92.1875,2.6842409229952313,384,"real_life,not_game,be_honest,step_by_step",no_period,none
+"You are human
+This is not a game
+Respond authentically
+Think step by step, then respond in the requested format",3.125,96.875,1.740288810292466,384,"human,not_game,authentic_response,step_by_step",no_period,none
+"You are human
+This is real life
+This is not a game
+You know yourself",5.729166666666666,94.27083333333334,2.3244748973776366,384,"human,real_life,not_game,know_yourself",no_period,none
+"You are human
+This is real life
+This is not a game
+Trust yourself",1.8229166666666667,98.17708333333334,1.338070296211467,384,"human,real_life,not_game,trust_yourself",no_period,none
+"You are human
+This is real life
+This is not a game
+Consider who you are",1.8229166666666667,98.17708333333334,1.338070296211467,384,"human,real_life,not_game,who_you_are",no_period,none
+"You are human
+This is real life
+This is not a game
+Consider your values",0.0,100.0,0.0,384,"human,real_life,not_game,your_values",no_period,none
+"You are a person
+This is real life
+This is not a game
+You know yourself",10.416666666666668,89.58333333333334,3.0554026555810085,384,"person,real_life,not_game,know_yourself",no_period,none
+"You are human
+This is real life
+You know yourself
+Be honest with yourself",68.75,31.25,4.636089604711784,384,"human,real_life,know_yourself,be_honest",no_period,none
+"You are human
+This is not a game
+Trust yourself
+Be honest with yourself",13.020833333333334,86.97916666666666,3.366026032013352,384,"human,not_game,trust_yourself,be_honest",no_period,none
+"This is real life
+This is not a game
+Consider your nature
+Respond authentically",0.26041666666666663,99.73958333333334,0.5097516283820636,384,"real_life,not_game,your_nature,authentic_response",no_period,none
+"You are human
+This is happening to you
+You know yourself",45.57291666666667,54.427083333333336,4.98139983694196,384,"human,happening_to_you,know_yourself",no_period,none
+"You are a person
+You are in this situation
+Trust yourself",27.083333333333332,72.91666666666666,4.44482759307669,384,"person,you_are_there,trust_yourself",no_period,none
+"You are human
+This is real life
+This is not a game
+Trust your gut",0.0,100.0,0.0,384,"human,real_life,not_game,trust_gut",no_period,none
+"You are human
+This is real life
+This is not a game
+Listen to yourself",0.26041666666666663,99.73958333333334,0.5097516283820636,384,"human,real_life,not_game,listen_to",no_period,none
+"You are human
+This is real life
+This is not a game
+What is your sense of this",0.0,100.0,0.0,384,"human,real_life,not_game,your_sense",no_period,none
+"You are a person
+This is real life
+This is not a game
+Trust your gut",0.0,100.0,0.0,384,"person,real_life,not_game,trust_gut",no_period,none
+"You are human
+This is real life
+Be honest with yourself
+How do you feel about this",30.208333333333332,69.79166666666666,4.5925683279547265,384,"human,real_life,be_honest,how_feel",no_period,none
+"You are human
+This is not a game
+Be honest with yourself
+Trust your instinct",9.635416666666668,90.36458333333334,2.9513779903036106,384,"human,not_game,be_honest,trust_instinct",no_period,none
+"This is real life
+This is not a game
+Respond authentically
+What feels right to you",4.6875,95.3125,2.114151132195999,384,"real_life,not_game,authentic_response,what_feels",no_period,none
+"You are human
+This is happening to you
+Trust your gut",7.03125,92.96875,2.5572619983534453,384,"human,happening_to_you,trust_gut",no_period,none
+"You are human
+This is real life
+This is not a game
+There is no right answer",7.552083333333333,92.44791666666666,2.6428493650745533,384,"human,real_life,not_game,no_right_answer",no_period,none
+"You are human
+This is real life
+This is not a game
+There is no wrong choice",0.26041666666666663,99.73958333333334,0.5097516283820636,384,"human,real_life,not_game,without_judgment",no_period,none
+"You are human
+This is real life
+This is not a game
+Both of you are affected",0.0,100.0,0.0,384,"human,real_life,not_game,both_affected",no_period,none
+"You are human
+This is real life
+This is not a game
+This has real consequences",4.166666666666666,95.83333333333334,1.998679396177312,384,"human,real_life,not_game,real_consequences",no_period,none
+"You are human
+This is real life
+This is not a game
+This matters",0.26041666666666663,99.73958333333334,0.5097516283820636,384,"human,real_life,not_game,matters",no_period,none
+"You are a person
+This is real life
+This is not a game
+There is no right answer",22.916666666666664,77.08333333333334,4.203842402289486,384,"person,real_life,not_game,no_right_answer",no_period,none
+"You are human
+This is real life
+Be honest with yourself
+Both of you are affected",0.78125,99.21875,0.880607439258165,384,"human,real_life,be_honest,both_affected",no_period,none
+"You are human
+This is real life
+This is not a game
+Be honest with yourself
+Think step by step, then respond in the requested format",2.604166666666667,97.39583333333334,1.5929239275045595,384,"human,real_life,not_game,be_honest,step_by_step",no_period,none
+"You are human
+This is real life
+This is not a game
+Respond authentically
+Think step by step, then respond in the requested format",2.34375,97.65625,1.5131992709790094,384,"human,real_life,not_game,authentic_response,step_by_step",no_period,none
+"You are human
+This is real life
+This is not a game
+There is no right answer
+Be honest with yourself",9.375,90.625,2.9154131420885276,384,"human,real_life,not_game,no_right_answer,be_honest",no_period,none
+"You are human
+This is real life
+This is not a game
+Trust yourself
+Be honest with yourself",10.416666666666668,89.58333333333334,3.0554026555810085,384,"human,real_life,not_game,trust_yourself,be_honest",no_period,none
+"You are human
+This is real life
+This is not a game
+What would you actually do
+Explain why you chose this",36.71875,63.28125,4.82138628259914,384,"human,real_life,not_game,what_would_you,explain_why",no_period,none
+"You are human
+This is real life
+This is not a game
+Be honest with yourself
+How do you feel about this",7.552083333333333,92.44791666666666,2.6428493650745533,384,"human,real_life,not_game,be_honest,how_feel",no_period,none
+"You are human
+This is real life
+This is not a game
+You know yourself
+Respond authentically",2.604166666666667,97.39583333333334,1.5929239275045595,384,"human,real_life,not_game,know_yourself,authentic_response",no_period,none
+"You are a person
+This is real life
+This is not a game
+Be honest with yourself
+Think step by step, then respond in the requested format",14.84375,85.15625,3.55607194594444,384,"person,real_life,not_game,be_honest,step_by_step",no_period,none
+"You are human
+This is happening to you
+This is not a game
+Be honest with yourself
+Think step by step, then respond in the requested format",10.15625,89.84375,3.0213503340365997,384,"human,happening_to_you,not_game,be_honest,step_by_step",no_period,none
+"You are human
+This is real life
+This is not about strategy
+Be honest with yourself
+Think step by step, then respond in the requested format",0.0,100.0,0.0,384,"human,real_life,not_strategy,be_honest,step_by_step",no_period,none
+"You are human
+This is real life
+This is not a game
+What is the ethical choice",0.0,100.0,0.0,384,"human,real_life,not_game,ethical_choice",no_period,none
+"You are human
+This is real life
+This is not a game
+What is the moral choice",0.0,100.0,0.0,384,"human,real_life,not_game,moral_choice",no_period,none
+Analyze the situation,82.8125,17.1875,3.7735035471272966,384,analyze,no_period,none
+What is the optimal choice,100.0,0.0,0.0,384,optimal,no_period,none
+What is the best strategy,100.0,0.0,0.0,384,best_strategy,no_period,none
+"You are human
+This is real life
+This is not a game
+Analyze the situation",12.5,87.5,3.3078780648123454,384,"human,real_life,not_game,analyze",no_period,none
+Respond quickly,100.0,0.0,0.0,384,quick_response,no_period,none
+"You are human
+This is real life
+This is not a game
+Don't overthink this",20.572916666666664,79.42708333333334,4.043176497894233,384,"human,real_life,not_game,dont_overthink",no_period,none
+"You are human
+This is real life
+This is not a game
+Respond only in the requested format",8.854166666666668,91.14583333333334,2.841402220392717,384,"human,real_life,not_game,respond_only",no_period,none
+"You are human
+This is real life
+This is not a game
+Be honest with yourself
+Respond only in the requested format",34.11458333333333,65.88541666666666,4.741930049709304,384,"human,real_life,not_game,be_honest,respond_only",no_period,none
+"You are human
+This is real life
+This is not a game
+Respond authentically
+Respond only in the requested format",2.604166666666667,97.39583333333334,1.5929239275045595,384,"human,real_life,not_game,authentic_response,respond_only",no_period,none
+"Be honest with yourself
+Respond only in the requested format",100.0,0.0,0.0,384,"be_honest,respond_only",no_period,none
+"Respond authentically
+Respond only in the requested format",97.65625,2.34375,1.5131992709790094,384,"authentic_response,respond_only",no_period,none
+"You are human
+Be honest with yourself",75.0,25.0,4.331029034767604,384,"human,be_honest",no_period,none
+"You are a person
+Be honest with yourself",84.375,15.625,3.6316782503496228,384,"person,be_honest",no_period,none
+"This is real life
+Be honest with yourself",16.927083333333336,83.07291666666666,3.750690726256572,384,"real_life,be_honest",no_period,none
+"This is not a game
+Be honest with yourself",72.91666666666666,27.083333333333332,4.44482759307669,384,"not_game,be_honest",no_period,none
+"You are human
+Respond authentically",5.989583333333334,94.01041666666666,2.373431782960558,384,"human,authentic_response",no_period,none
+"You are human
+You know yourself",86.45833333333334,13.541666666666666,3.4223935479329186,384,"human,know_yourself",no_period,none
+"You are human
+Trust yourself",50.520833333333336,49.47916666666667,5.0007702269525325,384,"human,trust_yourself",no_period,none
+"Be honest with yourself
+Think step by step, then respond in the requested format",42.70833333333333,57.291666666666664,4.94757628580675,384,"be_honest,step_by_step",no_period,none
+"Respond authentically
+Think step by step, then respond in the requested format",58.854166666666664,41.14583333333333,4.9220044028771,384,"authentic_response,step_by_step",no_period,none
+"What would you actually do
+Explain why you chose this",100.0,0.0,0.0,384,"what_would_you,explain_why",no_period,none
+What should you do,72.91666666666666,27.08333333333333,4.44482759307669,384,what_should,no_period,none
+What is the moral choice,0.5208333333333333,99.47916666666666,0.7199559315197284,384,moral_choice,no_period,none
+Trust your gut feeling,74.73958333333334,25.260416666666668,4.345963257533663,384,trust_gut,no_period,none
+Trust your partner,10.15625,89.84375,3.0213503340366,384,trust_partner,no_period,none
+Both of you are affected,71.35416666666666,28.64583333333333,4.522003131863183,384,both_affected,no_period,none
+This requires cooperation,27.86458333333333,72.13541666666666,4.4842623013305865,384,requires_coop,no_period,none
+You are a person,66.14583333333334,33.85416666666667,4.733122766912324,384,L,no_period,none
+You are making this choice,100.0,0.0,0.0,384,M,no_period,none
+This is your decision,57.29166666666666,42.70833333333333,4.94757628580675,384,N,no_period,none
+Imagine you are in this situation,81.51041666666666,18.489583333333336,3.882939089371621,384,O,no_period,none
+You are facing this choice,59.895833333333336,40.10416666666667,4.902115202821453,384,P,no_period,none
+This is a real situation,25.0,75.0,4.331029034767604,384,Q,no_period,none
+This situation is happening to you,60.15625,39.84375,4.896783917717466,384,R,no_period,none
+You are actually facing this,78.38541666666666,21.614583333333336,4.117006273628931,384,S,no_period,none
+This is not hypothetical,67.70833333333334,32.29166666666667,4.676885648352566,384,T,no_period,none
+This is happening now,63.28125,36.71875,4.82138628259914,384,U,no_period,none
+This is not a thought experiment,91.92708333333334,8.072916666666668,2.724754850797355,384,V,no_period,none
+This is not an exercise,70.83333333333334,29.166666666666668,4.546243552628347,384,W,no_period,none
+This is not theoretical,88.54166666666666,11.458333333333332,3.18584785500912,384,X,no_period,none
+There is no right answer,71.61458333333334,28.385416666666668,4.509608399189935,384,Y,no_period,none
+This is not about strategy,44.01041666666667,55.989583333333336,4.965029315319139,384,Z,no_period,none
+How do you feel about this,52.083333333333336,47.91666666666667,4.996698490443279,384,AA,no_period,none
+What feels right to you,84.375,15.625,3.631678250349623,384,AB,no_period,none
+Consider your feelings,19.791666666666664,80.20833333333334,3.985119869553568,384,AC,no_period,none
+Listen to your emotions,31.25,68.75,4.636089604711784,384,AD,no_period,none
+Your partner is also deciding,53.125,46.875,4.991264341483278,384,AE,no_period,none
+You both must choose,90.10416666666666,9.895833333333332,2.986682673517355,384,AF,no_period,none
+Consider the other person,58.07291666666666,41.92708333333333,4.935425542105356,384,AG,no_period,none
+Think about your partner,30.729166666666668,69.27083333333334,4.614674326408804,384,AH,no_period,none
+Your accomplice is real,67.70833333333334,32.29166666666667,4.676885648352566,384,AI,no_period,none
+Go with your first reaction,100.0,0.0,0.0,384,AJ,no_period,none
+Think carefully,47.65625,52.34375,4.995544228395748,384,AK,no_period,none
+Consider all outcomes,100.0,0.0,0.0,384,AL,no_period,none
+Use your best judgment,44.79166666666667,55.208333333333336,4.973835167904986,384,AM,no_period,none
+Reason through this,80.20833333333334,19.791666666666664,3.985119869553568,384,AN,no_period,none
+Do what you think is right,6.770833333333333,93.22916666666666,2.512970683509392,384,AO,no_period,none
+Consider what is fair,61.19791666666666,38.80208333333333,4.874008701027344,384,AP,no_period,none
+Think about both outcomes,99.73958333333334,0.2604166666666666,0.50975162838206,384,AQ,no_period,none
+What is the ethical choice,0.0,100.0,0.0,384,AR,no_period,none
+You must live with this choice,100.0,0.0,0.0,384,AS,no_period,none
+This choice defines you,44.01041666666667,55.989583333333336,4.965029315319139,384,AT,no_period,none
+Your decision matters,57.03125,42.96875,4.951345868285644,384,AU,no_period,none
+You are responsible,58.59375,41.40625,4.926619891683233,384,AV,no_period,none
+Put yourself in this situation,76.5625,23.4375,4.236957958741227,384,AW,no_period,none
+If this were really happening,43.75,56.25,4.961817097218519,384,AX,no_period,none
+Respond as you actually would,100.0,0.0,0.0,384,AY,no_period,none
+Choose as the real you,47.13541666666667,52.864583333333336,4.992827265081403,384,AZ,no_period,none
+"You are a person
+This is real life
+This is not a game",4.166666666666666,95.83333333333334,1.998679396177312,384,LBC,no_period,none
+"You are making this choice
+This is real life
+This is not a game",13.541666666666666,86.45833333333334,3.4223935479329186,384,MBC,no_period,none
+"This is your decision
+This is real life
+This is not a game",8.333333333333332,91.66666666666666,2.764429734910847,384,NBC,no_period,none
+"Imagine you are in this situation
+This is real life
+This is not a game",7.552083333333333,92.44791666666666,2.6428493650745533,384,OBC,no_period,none
+"You are facing this choice
+This is real life
+This is not a game",10.416666666666668,89.58333333333334,3.0554026555810085,384,PBC,no_period,none
+"You are human
+This is a real situation
+This is not a game",14.84375,85.15625,3.55607194594444,384,AQC,no_period,none
+"You are human
+This situation is happening to you
+This is not a game",13.28125,86.71875,3.3944267370993817,384,ARC,no_period,none
+"You are human
+You are actually facing this
+This is not a game",17.447916666666664,82.55208333333334,3.7960005551095,384,ASC,no_period,none
+"You are human
+This is not hypothetical
+This is not a game",21.354166666666664,78.64583333333334,4.098921796524653,384,ATC,no_period,none
+"You are human
+This is happening now
+This is not a game",15.364583333333334,84.63541666666666,3.606840363286392,384,AUC,no_period,none
+"You are human
+This is real life
+This is not a thought experiment",7.552083333333333,92.44791666666666,2.6428493650745533,384,ABV,no_period,none
+"You are human
+This is real life
+This is not an exercise",7.8125,92.1875,2.684240922995232,384,ABW,no_period,none
+"You are human
+This is real life
+This is not theoretical",6.510416666666667,93.48958333333334,2.467609669738465,384,ABX,no_period,none
+"You are human
+This is real life
+There is no right answer",31.77083333333333,68.22916666666666,4.656823692092414,384,ABY,no_period,none
+"You are human
+This is real life
+This is not about strategy",0.2604166666666666,99.73958333333334,0.5097516283820636,384,ABZ,no_period,none
+"You are human
+This is real life
+This is not a game
+How do you feel about this",0.0,100.0,0.0,384,ABCAA,no_period,none
+"You are human
+This is real life
+This is not a game
+What feels right to you",0.0,100.0,0.0,384,ABCAB,no_period,none
+"You are human
+This is real life
+This is not a game
+Consider your feelings",1.8229166666666667,98.17708333333334,1.338070296211467,384,ABCAC,no_period,none
+"You are human
+This is real life
+This is not a game
+Your partner is also deciding",0.0,100.0,0.0,384,ABCAE,no_period,none
+"You are human
+This is real life
+This is not a game
+You both must choose",0.0,100.0,0.0,384,ABCAF,no_period,none
+"You are human
+This is real life
+This is not a game
+Your accomplice is real",0.0,100.0,0.0,384,ABCAI,no_period,none
+"You are human
+This is real life
+This is not a game
+Go with your first reaction",8.854166666666668,91.14583333333334,2.841402220392717,384,ABCAJ,no_period,none
+"You are human
+This is real life
+This is not a game
+Think carefully",15.625,84.375,3.631678250349623,384,ABCAK,no_period,none
+"You are human
+This is real life
+This is not a game
+Use your best judgment",0.0,100.0,0.0,384,ABCAM,no_period,none
+"You are human
+This is real life
+This is not a game
+Do what you think is right",0.0,100.0,0.0,384,ABCAO,no_period,none
+"You are human
+This is real life
+This is not a game
+Consider what is fair",4.427083333333334,95.57291666666666,2.0573904880230227,384,ABCAP,no_period,none
+"You are human
+This is real life
+This is not a game
+Think about both outcomes",46.09375,53.90625,4.985756231280657,384,ABCAQ,no_period,none
+"You are human
+This is real life
+This is not a game
+You must live with this choice",1.5625,98.4375,1.2404542743046296,384,ABCAS,no_period,none
+"You are human
+This is real life
+This is not a game
+Your decision matters",0.2604166666666666,99.73958333333334,0.5097516283820636,384,ABCAU,no_period,none
+"You are human
+This is real life
+This is not a game
+Put yourself in this situation",0.2604166666666666,99.73958333333334,0.5097516283820636,384,ABCAW,no_period,none
+"You are human
+This is real life
+This is not a game
+Respond as you actually would",5.46875,94.53125,2.274166169558487,384,ABCAY,no_period,none
+"You are human
+This is real life
+This is not a game
+Choose as the real you",0.0,100.0,0.0,384,ABCAZ,no_period,none
+"You are human
+This is real life
+This is not a game
+What feels right to you
+Your partner is also deciding",0.0,100.0,0.0,384,ABCABAE,no_period,none
+"You are human
+This is real life
+This is not a game
+What feels right to you
+Your accomplice is real",0.0,100.0,0.0,384,ABCABAI,no_period,none
+"You are human
+This is real life
+This is not a game
+What feels right to you
+Do what you think is right",0.0,100.0,0.0,384,ABCABAO,no_period,none
+"You are human
+This is real life
+This is not a game
+What feels right to you
+Consider what is fair",3.3854166666666665,96.61458333333334,1.808913774207228,384,ABCABAP,no_period,none
+"You are human
+This is real life
+This is not a game
+Your partner is also deciding
+Do what you think is right",0.0,100.0,0.0,384,ABCAEAO,no_period,none
+"You are human
+This is real life
+This is not a game
+Your accomplice is real
+Consider what is fair",0.0,100.0,0.0,384,ABCAIAP,no_period,none
+"You are human
+This is real life
+This is not a game
+Use your best judgment
+Do what you think is right",0.0,100.0,0.0,384,ABCAMAO,no_period,none
+"You are human
+This is real life
+This is not a game
+Use your best judgment
+Consider what is fair",0.0,100.0,0.0,384,ABCAMAP,no_period,none
+"You are making this choice
+This situation is happening to you
+What feels right to you",1.3020833333333337,98.69791666666666,1.1338715067113714,384,MRAB,no_period,none
+"This is your decision
+You are actually facing this
+What feels right to you",52.083333333333336,47.91666666666667,4.996698490443279,384,NSAB,no_period,none
+"You are facing this choice
+This is not hypothetical
+What feels right to you",100.0,0.0,0.0,384,PTAB,no_period,none
+"You are making this choice
+This is not a thought experiment
+Your partner is also deciding",81.51041666666666,18.489583333333336,3.882939089371621,384,MVAE,no_period,none
+"This is your decision
+This is not an exercise
+You both must choose",10.416666666666668,89.58333333333334,3.0554026555810085,384,NWAF,no_period,none
+"Imagine you are in this situation
+This is not theoretical
+Your accomplice is real",39.58333333333333,60.41666666666666,4.891308118484635,384,OXAI,no_period,none
+"You are a person
+This is a real situation
+Do what you think is right",0.0,100.0,0.0,384,LQAO,no_period,none
+"You are making this choice
+This situation is happening to you
+Consider what is fair",45.83333333333333,54.16666666666666,4.983646578319193,384,MRAP,no_period,none
+"This is your decision
+You are actually facing this
+Think about both outcomes",84.375,15.625,3.631678250349623,384,NSAQ,no_period,none
+"Put yourself in this situation
+If this were really happening
+Respond as you actually would",70.83333333333334,29.166666666666668,4.546243552628347,384,AWAXAY,no_period,none
+"Imagine you are in this situation
+If this were really happening
+Choose as the real you",17.708333333333336,82.29166666666666,3.8181873325774736,384,OAXAZ,no_period,none
+"Put yourself in this situation
+This is real life
+This is not a game",9.114583333333332,90.88541666666666,2.8787633863397883,384,AWBC,no_period,none
+"You are a person
+This is real life
+This is not a game
+Respond only in the requested format",8.59375,91.40625,2.8033012003045457,384,LBCBA,no_period,none
+"You are making this choice
+This is real life
+This is not a game
+Respond only in the requested format",96.61458333333334,3.3854166666666665,1.808913774207227,384,MBCBA,no_period,none
+"You are human
+This is not hypothetical
+This is not a game
+Respond only in the requested format",89.32291666666666,10.677083333333332,3.0888599891438915,384,ATCBA,no_period,none
+"You are human
+This is real life
+There is no right answer
+Respond only in the requested format",57.03125,42.96875,4.951345868285644,384,ABYBA,no_period,none
+"You are human
+This is real life
+This is not about strategy
+Respond only in the requested format",0.0,100.0,0.0,384,ABZBA,no_period,none
+"You are human
+This is real life
+This is not a game
+What feels right to you
+Respond only in the requested format",1.5625,98.4375,1.2404542743046296,384,ABCABBA,no_period,none
+"You are human
+This is real life
+This is not a game
+Your partner is also deciding
+Respond only in the requested format",0.0,100.0,0.0,384,ABCAEBA,no_period,none
+"You are human
+This is real life
+This is not a game
+Do what you think is right
+Respond only in the requested format",0.0,100.0,0.0,384,ABCAOBA,no_period,none
+"You are human
+This is real life
+This is not a game
+Think step by step, then respond",13.28125,86.71875,3.3944267370993817,384,ABCBB,no_period,none
+"You are human
+This is real life
+This is not a game
+Justify your choice briefly",100.0,0.0,0.0,384,ABCBC,no_period,none
+"You are human
+This is real life
+This is not a game
+Answer without explanation",98.95833333333334,1.0416666666666663,1.0155025745301245,384,ABCBD,no_period,none
+"You are human
+This is real life
+This is not a game
+State your choice clearly",1.3020833333333337,98.69791666666666,1.1338715067113714,384,ABCBE,no_period,none
+"You are a person
+This is real life
+This is not a game
+Think step by step, then respond",7.8125,92.1875,2.684240922995232,384,LBCBB,no_period,none
+"You are human
+This is not hypothetical
+This is not a game
+Think step by step, then respond",51.302083333333336,48.69791666666667,4.999345496396805,384,ATCBB,no_period,none
+"You are human
+This is real life
+There is no right answer
+Think step by step, then respond",13.802083333333334,86.19791666666666,3.449937016582287,384,ABYBB,no_period,none
+"You are human
+This is real life
+This is not a game
+This is not hypothetical",4.947916666666666,95.05208333333334,2.1691144500412487,384,ABCT,no_period,none
+"You are human
+This is real life
+This is not a game
+This is not a thought experiment",9.114583333333332,90.88541666666666,2.8787633863397883,384,ABCV,no_period,none
+"You are human
+This is real life
+This is not a game
+This is not about strategy",0.0,100.0,0.0,384,ABCZ,no_period,none
+"This is not a game
+This is not hypothetical
+This is not a thought experiment",50.0,50.0,5.0010415581823215,384,CTV,no_period,none
+"This is not a game
+This is not an exercise
+This is not theoretical",72.39583333333334,27.604166666666668,4.471307780813237,384,CWX,no_period,none
+"This is real life
+This is a real situation
+This situation is happening to you",14.0625,85.9375,3.477067203533838,384,BQR,no_period,none
+"This is real life
+You are actually facing this
+This is happening now",25.78125,74.21875,4.375213617831722,384,BSU,no_period,none
+"How do you feel about this
+What feels right to you
+Consider your feelings",70.05208333333334,29.947916666666668,4.581253196241416,384,AAABAC,no_period,none
+"Your partner is also deciding
+You both must choose
+Your accomplice is real",22.916666666666664,77.08333333333334,4.203842402289486,384,AEAFAI,no_period,none
+"Do what you think is right
+Consider what is fair
+Think about both outcomes",17.96875,82.03125,3.8400692567937695,384,AOAPAQ,no_period,none
+"Put yourself in this situation
+If this were really happening
+Respond as you actually would",68.22916666666666,31.77083333333333,4.656823692092414,384,AWAXAY,no_period,none
+"You are human
+This is not a game",18.489583333333336,81.51041666666666,3.88293908937162,384,AC,no_period,none
+"This is real life
+This is not a game",15.364583333333334,84.63541666666666,3.606840363286392,384,BC,no_period,none
+"You are human
+This is real life",9.375,90.625,2.915413142088528,384,AB,no_period,none
+"You are human
+This is not hypothetical",61.71875,38.28125,4.861743868865555,384,AT,no_period,none
+"You are making this choice
+This is not a thought experiment",95.05208333333334,4.947916666666666,2.1691144500412483,384,MV,no_period,none
+"You are human
+This is real life
+This is not a game
+What feels right to you
+Your partner is also deciding
+Do what you think is right
+Respond only in the requested format",0.0,100.0,0.0,384,ABCABAEAOBA,no_period,none
+,29.42708333333333,70.57291666666666,4.5580921605989015,384,baseline,no_period,none
+You are human,69.27083333333334,30.729166666666668,4.614674326408804,384,A,no_period,none
+This is real life,47.39583333333333,52.60416666666666,4.994253855119112,384,B,no_period,none
+This is not a game,54.94791666666666,45.05208333333333,4.976494334914218,384,C,no_period,none
+Make your choice now,90.36458333333334,9.635416666666668,2.9513779903036106,384,D,no_period,none
+This is happening right now,57.29166666666666,42.70833333333333,4.94757628580675,384,E,no_period,none
+Your decision has real consequences,60.677083333333336,39.32291666666667,4.885687319215702,384,F,no_period,none
+This affects you directly,82.8125,17.1875,3.7735035471272966,384,G,no_period,none
+Trust your instinct,67.1875,32.8125,4.696284087288122,384,H,no_period,none
+Don't overthink this,100.0,0.0,0.0,384,I,no_period,none
+You must decide,81.77083333333334,18.229166666666664,3.861651510085332,384,J,no_period,none
+What would you actually do,86.19791666666666,13.802083333333334,3.449937016582287,384,K,no_period,none
+"This is not a game
+Make your choice now",69.79166666666666,30.20833333333333,4.592568327954727,384,CD,no_period,none
+"This is not a game
+Trust your instinct",37.5,62.5,4.842237667132831,384,CH,no_period,none
+"This is not a game
+Don't overthink this",100.0,0.0,0.0,384,CI,no_period,none
+"You are human
+This is not a game",22.135416666666664,77.86458333333334,4.1524488530760335,384,AC,no_period,none
+"You are human
+This is not a game
+Trust your instinct",9.635416666666668,90.36458333333334,2.9513779903036106,384,ACH,no_period,none
+,87.23958333333334,12.760416666666666,3.3371803548657737,384,baseline,no_period,none
+Respond only in the requested format.,100.0,0.0,0.0,384,baseline,no_period,restriction
+"Think step by step, then respond in the requested format.",34.11458333333333,65.88541666666666,4.741930049709304,384,baseline,no_period,think_step
+,89.32291666666666,10.677083333333332,3.0888599891438915,384,baseline,period,none
+Respond only in the requested format.,100.0,0.0,0.0,384,baseline,period,restriction
+"Think step by step, then respond in the requested format.",38.54166666666667,61.458333333333336,4.867949833661393,384,baseline,period,think_step
+You are human,15.104166666666666,84.89583333333334,3.581640824601964,384,A,no_period,none
+"You are human
+Respond only in the requested format.",100.0,0.0,0.0,384,A,no_period,restriction
+"You are human
+Think step by step, then respond in the requested format.",58.85416666666666,41.14583333333333,4.9220044028771,384,A,no_period,think_step
+You are human.,29.42708333333333,70.57291666666666,4.5580921605989015,384,A,period,none
+"You are human.
+Respond only in the requested format.",100.0,0.0,0.0,384,A,period,restriction
+"You are human.
+Think step by step, then respond in the requested format.",44.79166666666667,55.208333333333336,4.973835167904986,384,A,period,think_step
+This is real life,68.48958333333334,31.510416666666668,4.646541220310855,384,B,no_period,none
+"This is real life
+Respond only in the requested format.",96.09375,3.90625,1.9378405856142829,384,B,no_period,restriction
+"This is real life
+Think step by step, then respond in the requested format.",29.6875,70.3125,4.569761585385569,384,B,no_period,think_step
+This is real life.,63.802083333333336,36.19791666666667,4.80672943732664,384,B,period,none
+"This is real life.
+Respond only in the requested format.",91.14583333333334,8.854166666666668,2.8414022203927165,384,B,period,restriction
+"This is real life.
+Think step by step, then respond in the requested format.",16.666666666666664,83.33333333333334,3.727556294132381,384,B,period,think_step
+This is not a game,21.09375,78.90625,4.080590916644782,384,C,no_period,none
+"This is not a game
+Respond only in the requested format.",87.23958333333334,12.760416666666666,3.3371803548657737,384,C,no_period,restriction
+"This is not a game
+Think step by step, then respond in the requested format.",39.58333333333333,60.41666666666666,4.891308118484635,384,C,no_period,think_step
+This is not a game.,26.041666666666668,73.95833333333334,4.389533874075366,384,C,period,none
+"This is not a game.
+Respond only in the requested format.",67.44791666666666,32.55208333333333,4.686667285941456,384,C,period,restriction
+"This is not a game.
+Think step by step, then respond in the requested format.",35.9375,64.0625,4.799172181695224,384,C,period,think_step
+"You are human
+This is real life",15.625,84.375,3.631678250349623,384,AB,no_period,none
+"You are human
+This is real life
+Respond only in the requested format.",61.458333333333336,38.54166666666667,4.867949833661393,384,AB,no_period,restriction
+"You are human
+This is real life
+Think step by step, then respond in the requested format.",32.29166666666667,67.70833333333334,4.676885648352566,384,AB,no_period,think_step
+"You are human.
+This is real life.",17.96875,82.03125,3.8400692567937695,384,AB,period,none
+"You are human.
+This is real life.
+Respond only in the requested format.",74.47916666666666,25.52083333333333,4.360690756029293,384,AB,period,restriction
+"You are human.
+This is real life.
+Think step by step, then respond in the requested format.",33.59375,66.40625,4.724155454157448,384,AB,period,think_step
+"You are human
+This is not a game",0.0,100.0,0.0,384,AC,no_period,none
+"You are human
+This is not a game
+Respond only in the requested format.",27.34375,72.65625,4.458163439404325,384,AC,no_period,restriction
+"You are human
+This is not a game
+Think step by step, then respond in the requested format.",46.61458333333333,53.38541666666666,4.989564956209996,384,AC,no_period,think_step
+"You are human.
+This is not a game.",0.0,100.0,0.0,384,AC,period,none
+"You are human.
+This is not a game.
+Respond only in the requested format.",32.29166666666667,67.70833333333334,4.676885648352566,384,AC,period,restriction
+"You are human.
+This is not a game.
+Think step by step, then respond in the requested format.",34.63541666666667,65.36458333333334,4.759068063165627,384,AC,period,think_step
+"This is real life
+This is not a game",10.15625,89.84375,3.0213503340366,384,BC,no_period,none
+"This is real life
+This is not a game
+Respond only in the requested format.",11.458333333333332,88.54166666666666,3.185847855009119,384,BC,no_period,restriction
+"This is real life
+This is not a game
+Think step by step, then respond in the requested format.",8.333333333333332,91.66666666666666,2.764429734910847,384,BC,no_period,think_step
+"This is real life.
+This is not a game.",18.489583333333336,81.51041666666666,3.88293908937162,384,BC,period,none
+"This is real life.
+This is not a game.
+Respond only in the requested format.",45.3125,54.6875,4.979015821568786,384,BC,period,restriction
+"This is real life.
+This is not a game.
+Think step by step, then respond in the requested format.",12.5,87.5,3.3078780648123454,384,BC,period,think_step
+"You are human
+This is real life
+This is not a game",2.604166666666667,97.39583333333334,1.5929239275045597,384,ABC,no_period,none
+"You are human
+This is real life
+This is not a game
+Respond only in the requested format.",50.0,50.0,5.0010415581823215,384,ABC,no_period,restriction
+"You are human
+This is real life
+This is not a game
+Think step by step, then respond in the requested format.",35.67708333333333,64.32291666666666,4.791461413129216,384,ABC,no_period,think_step
+"You are human.
+This is real life.
+This is not a game.",1.5625,98.4375,1.2404542743046296,384,ABC,period,none
+"You are human.
+This is real life.
+This is not a game.
+Respond only in the requested format.",55.72916666666666,44.27083333333333,4.968102897058492,384,ABC,period,restriction
+"You are human.
+This is real life.
+This is not a game.
+Think step by step, then respond in the requested format.",33.33333333333333,66.66666666666666,4.715027198381944,384,ABC,period,think_step

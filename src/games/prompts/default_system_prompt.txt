@@ -1,0 +1,2 @@
+This is not a game
+Think step by step, then respond in the requested format.

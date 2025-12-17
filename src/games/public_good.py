@@ -3,6 +3,8 @@ from typing import List, Optional
 from src.games.game import Game, Strategy
 
 class PublicGoodsGame(Game):
+    GAME_RULES = "You have ${endowment}. Decide how much to contribute to a public pool. Total contributions are multiplied by {multiplier} and split equally among {n_players} players. You keep what you don't contribute plus your share. Respond with contribution (absolute or fraction 0-1)."
+
     def __init__(self, n_players: int = 4, endowment: float = 100.0, multiplier: float = 1.5):
         super().__init__(num_players=n_players, endowment=endowment, multiplier=multiplier)
 

@@ -1,62 +1,57 @@
-"""
-OLLAMA Client with Structured Output using Pydantic
-Install: pip install ollama pydantic
-"""
-
-from ollama import chat
+import os
+from ollama import Client
 from pydantic import BaseModel, Field
-from typing import Optional
+from dotenv import load_dotenv
+import logging
+load_dotenv()
+
+PROMPTS_DIR = os.path.join(os.path.dirname(__file__), "games/prompts")
+
+with open(os.path.join(PROMPTS_DIR, "default_system_prompt.txt")) as f:
+    SYSTEM_PROMPT = f.read().strip()
 
 
 class Response(BaseModel):
-    answer: str = Field(description="The main answer to the query")
-    confidence: float = Field(description="Confidence score between 0 and 1", ge=0, le=1)
-    reasoning: Optional[str] = Field(default=None, description="Reasoning behind the answer")
+    answer: str = Field(description="Main answer")
+    confidence: float = Field(description="Confidence 0-1", ge=0, le=1)
+    reasoning: str = Field(default="", description="Reasoning")
 
 
 class OllamaClient:
-    def __init__(self, model):
-        self.model = model
-    
-    def get_structured_response(self, prompt,response_model: type[BaseModel] = Response, temperature=0.7):
-        response = chat(
+    def __init__(self, model=None, host=None, port=None):
+        self.model = model or os.getenv("OLLAMA_MODEL", "mistral")
+        host = host or os.getenv("OLLAMA_HOST", "localhost")
+        port = port or os.getenv("OLLAMA_PORT", "11434")
+        self.base_url = f"http://{host}:{port}"
+        self.client = Client(host=self.base_url)
+        
+    def query(self, prompt, response_model=Response, temperature=0.7, system_prompt=""):
+        logging.debug(str({"role": "system", "content": SYSTEM_PROMPT+f"\n{system_prompt}"}))
+        response = self.client.chat(
             model=self.model,
             messages=[
-                {
-                    'role': 'user',
-                    'content': prompt
-                }
+                {"role": "system", "content": SYSTEM_PROMPT+f"\n{system_prompt}"},
+                {"role": "user", "content": prompt}
             ],
-            format=response_model.model_json_schema(),  # Pass Pydantic schema
-            options={'temperature': temperature}
+            format=response_model.model_json_schema(),
+            options={"temperature": temperature}
         )
-        
-        # Parse and validate the JSON response
         return response_model.model_validate_json(response.message.content)
 
 
-# Example usage
 if __name__ == "__main__":
-    # Initialize client
-    client = OllamaClient(model="llama3.2")
-    
-    # Send a request
+    client = OllamaClient()
+
+    print(f"Connecting to: {client.base_url}")
+    print(f"Model: {client.model}\n")
+
     try:
-        result = client.get_structured_response(
-            prompt="What is the capital of France? Rate your confidence from 0 to 1."
-        )
-        
-        print("Structured Response:")
+        result = client.query("What is the capital of France? Rate confidence 0-1.")
         print(f"Answer: {result.answer}")
         print(f"Confidence: {result.confidence}")
         print(f"Reasoning: {result.reasoning}")
-        
-        # You can also access it as a dict
-        print("\nAs dict:", result.model_dump())
-        
     except Exception as e:
         print(f"Error: {e}")
-        print("\nMake sure:")
-        print("1. Ollama is installed and running")
-        print("2. You have the model: ollama pull llama3.2")
-        print("3. You installed: pip install ollama pydantic")
+        print("\nCheck:")
+        print(f"  1. Ollama running on {client.base_url}")
+        print(f"  2. Model available: ollama pull {client.model}")

@@ -3,6 +3,9 @@ from typing import List, Optional
 from src.games.game import Game, Strategy
 
 class UltimatumGame(Game):
+    PROPOSER_RULES = "You have ${endowment}. Propose how much to offer the other player. They can accept or reject. If rejected, both get 0. Respond with your offer (absolute or fraction 0-1)."
+    RESPONDER_RULES = "The proposer will offer you part of ${endowment}. You can accept or reject. If you reject, both get 0. Respond with your minimum acceptable offer (absolute or fraction)."
+
     def __init__(self, endowment: float = 100.0, responder_threshold = None):
         # responder_threshold: if provided as fraction (0-1) or absolute amount
         super().__init__(num_players=2, endowment=endowment, responder_threshold=responder_threshold)

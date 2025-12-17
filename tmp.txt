@@ -1,0 +1,40 @@
+Okay I am running this, but keep in mind for the future that I am able to concatenate previous runs. So I like wha twe are doing with keeping base phases keyed. Remvoing restrictions is good, but you re-ran 'A' which again, is okay for now. I suppose if we do  a lot more I could make it not re-run duplicates. But when I ask you for another run maybe try to keep that in mind. Like I am running this now:
+
+base_phrases = {
+    'A': 'You are human',
+    'B': 'This is real life', 
+    'C': 'This is not a game',
+    'D': 'Make your choice now',
+    'E': 'This is happening right now',
+    'F': 'Your decision has real consequences',
+    'G': 'This affects you directly',
+    'H': 'Trust your instinct',
+    'I': 'Don\'t overthink this',
+    'J': 'You must decide',
+    'K': 'What would you actually do',
+}
+
+combinations = [
+    [],              # baseline
+    # Test each alone first
+    ['A'], ['B'], ['C'],
+    ['D'], ['E'], ['F'], ['G'], ['H'], ['I'], ['J'], ['K'],
+    # Then promising combinations
+    ['C', 'D'],      # stakes + immediacy
+    ['C', 'H'],      # stakes + intuition
+    ['C', 'I'],      # stakes + anti-overthinking
+    ['A', 'C'],      # your previous finding
+    ['A', 'C', 'H'], # try to restore variance to AC
+]
+
+restrictions = [None]  # no restrictions
+use_periods = [False]  # no periods for first pass
+
+
+But what do you plan for the next stage? Here are the results. When giving me another revision on the next batch of system prompts to test, can you look up some research on what others did with LLMs and games comparing to human trials? I have read many papers and seen what they do. But again, I am looking at key-word purtubations in the system prompt and its assocaited change in behaviour; so I do not want long multi-sentecnes in this. We are testing small sentences, or a couple ttokens and permuting them to find out the best way to get the agent to act Agent Like. Additionally, I do run sometimes 
+
+class BinaryStrategy_Prisoners(BaseModel):
+    choice: Literal["Stay Silent", "Confess"] = Field(description="Your choice: Stay Silent or Confess")
+    note: str = Field(description="A one sentence description explaining your choice.")
+
+On small batchs of like 10, to get a preview into the LLM reasoning. Do you think we can analize the reasoning to find what I am looking for? To do this, I can go through each prompt in the dataset we have created, and ask run it, and consolidate 10 reasoning notes for each. Then generally, when I read it, I am looking for if it considers gametheory and recognizes the prisoners dilemma; I consider this bad because someone random entering this game might not recognize it as the prisoners dilemma. My goal again is to consider the model like an agent and agents I believe do not represent the unresticted, no system prompt, LLM response. Could you provide me with some thoughts on this topic specifically? Or you can wait for me to produce notes. 

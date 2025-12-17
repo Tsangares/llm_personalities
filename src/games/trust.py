@@ -3,6 +3,9 @@ from typing import List, Optional
 from src.games.game import Game, Strategy
 
 class TrustGame(Game):
+    INVESTOR_RULES = "You have ${endowment}. Decide how much to send to the trustee. It will be multiplied by {multiplier}. The trustee then decides how much to return. Respond with amount to send (absolute or fraction 0-1)."
+    TRUSTEE_RULES = "The investor will send you some amount, which gets multiplied by {multiplier}. Decide what fraction to return to the investor. Respond with fraction to return (0-1)."
+
     def __init__(self, endowment: float = 100.0, multiplier: float = 3.0):
         super().__init__(num_players=2, endowment=endowment, multiplier=multiplier)
 

@@ -3,6 +3,8 @@ from typing import List, Optional
 from src.games.game import Game, Strategy
 
 class VolunteerDilemma(Game):
+    GAME_RULES = "There are {n_players} players. If at least one volunteers, everyone gets ${benefit}. Volunteers pay ${cost}. If no one volunteers, everyone gets 0. Respond with: volunteer (true) or not (false)."
+
     def __init__(self, n_players: int = 3, cost: float = 20.0, benefit: float = 100.0):
         """
         Volunteer's Dilemma: If at least one volunteers, whole group gets benefit.

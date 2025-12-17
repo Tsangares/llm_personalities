@@ -3,6 +3,8 @@ from typing import List, Optional
 from src.games.game import Game, Strategy
 
 class PrisonerDilemma(Game):
+    GAME_RULES = "Choose: Cooperate (C) or Defect (D). Payoffs: Both C = 3 each, Both D = 1 each, One defects = Defector gets 5, Cooperator gets 0. Respond with C or D."
+
     def __init__(self, payoff_matrix = None):
         """
         Prisoner's Dilemma game.
@@ -19,7 +21,7 @@ class PrisonerDilemma(Game):
             ('D','D'): (1.0, 1.0),
         }
         super().__init__(num_players=2, payoff_matrix=payoff_matrix or default)
-
+    
     def play(self, strategies: Optional[List[Strategy]] = None) -> List[float]:
         """
         Each player chooses to Cooperate ('C') or Defect ('D').
