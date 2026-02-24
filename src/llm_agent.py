@@ -28,8 +28,8 @@ class BooleanStrategy(BaseModel):
 
 
 class LLMAgent:
-    def __init__(self, model=None):
-        self.client = OllamaClient(model=model)
+    def __init__(self, model=None, host=None, port=None):
+        self.client = OllamaClient(model=model, host=host, port=port)
         
         
     def play(self, prompt, response_model=NumericStrategy, system_prompt="", temperature=0.7):

@@ -1,4 +1,18 @@
+datasets/*
+output/*
 .env
 *~
 .venv
-__pycache__
+__pycache__/
+
+# Cache
+cache/
+cache.json
+
+# Local editor/tool settings
+.claude/
+.ipynb_checkpoints/
+
+# Generated output files
+prisoners_dilemma_notes*.csv
+working_paper*.pdf
